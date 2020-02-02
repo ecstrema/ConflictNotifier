@@ -1,0 +1,24 @@
+{
+  "name": "ConflictNotifier",
+  "version": "1.0.0",
+  "description": "Github action that notifies you when conflict arise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marr11317/ConflictNotifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marr11317/ConflictNotifier/issues"
+  },
+  "homepage": "https://github.com/Marr11317/ConflictNotifier#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.0"
+  }
+}
