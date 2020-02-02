@@ -3,11 +3,11 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: A job to notify when conflicts arise
     steps:
-    - name: Hello world action step
-      id: hello
-      uses: marr11317/ConflictNotifier@master
+    - name: Conflict notifier
+      id: ConflictNotifier
+      uses: marr11317/ConflictNotifier@work
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
